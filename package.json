@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-yaml-viewer",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "View and edit YAML files in a structured tree view inside Obsidian",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
@@ -24,6 +24,7 @@
 		"jiti": "2.6.1"
 	},
 	"dependencies": {
+		"yaml": "^2.7.0",
 		"obsidian": "latest"
 	}
 }
